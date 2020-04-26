@@ -137,7 +137,7 @@ if __name__ == '__main__':
       '--lamda',
       help='hyper-parameter of DPBag on DP noise (should be optimized)',
       default=0.02,
-      type=int)
+      type=float)
   parser.add_argument(
       '--part_no',
       help='the number of partitions (should be optimized)',
